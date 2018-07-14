@@ -35,9 +35,9 @@ PRODUCT_PACKAGES += \
     libqcomvoiceprocessing \
     tinycap \
     tinymix \
-    tinyplay \
-    libqdMetaData.system \
-    libqdMetaData
+    tinyplay
+
+
 
 
 # Camera
