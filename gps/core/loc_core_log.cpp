@@ -34,6 +34,22 @@
 #include <log_util.h>
 #include <loc_core_log.h>
 
+#define GPS_DELETE_ALMANAC_CORR                  0x00001000
+#define GPS_DELETE_FREQ_BIAS_EST                 0x00002000
+#define GLO_DELETE_EPHEMERIS               0x00004000
+#define GLO_DELETE_ALMANAC   0x00008000
+#define GLO_DELETE_SVDIR  0x00010000
+#define	GLO_DELETE_SVSTEER 0x00020000
+#define	GLO_DELETE_ALMANAC_CORR  0x00040000
+#define	GPS_DELETE_TIME_GPS  0x00080000
+#define	GLO_DELETE_TIME  0x00100000
+#define	BDS_DELETE_SVDIR 0x00200000
+#define	BDS_DELETE_SVSTEER  0x00400000
+#define	BDS_DELETE_TIME 0x00800000
+#define	BDS_DELETE_ALMANAC_CORR 0x01000000
+#define	BDS_DELETE_EPHEMERIS  0x02000000
+#define       BDS_DELETE_ALMANAC 0x04000000
+
 void LocPosMode::logv() const
 {
     LOC_LOGV ("Position mode: %s\n  Position recurrence: %s\n  "
