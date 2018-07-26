@@ -17,5 +17,5 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Volume Rocker Wake Support. Some devices do not support (PMU) this.
          Setting to false will disable Volume Rocker Wake support -->
-    <bool name="config_show_volumeRockerWake">true</bool>
+<add-resource type="bool" name="config_show_volumeRockerWake">true</add-resource>
 </resources>
