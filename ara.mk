@@ -37,6 +37,9 @@ PRODUCT_PACKAGES += \
     tinymix \
     tinyplay
 
+
+
+
 # Camera
 PRODUCT_PACKAGES += \
     camera.msm8610
